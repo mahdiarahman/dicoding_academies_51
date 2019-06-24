@@ -12,7 +12,7 @@ import java.util.Locale;
 public class DetailActivity extends AppCompatActivity {
 
     ImageView ivgbr;
-    TextView tvnama,tvharga;
+    TextView tvnama,tvharga,tvketisi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +27,11 @@ public class DetailActivity extends AppCompatActivity {
         ivgbr = findViewById(R.id.ivgbr);
         tvnama = findViewById(R.id.tvnama);
         tvharga = findViewById(R.id.tvharga);
+        tvketisi = findViewById(R.id.tvketisi);
 
         ivgbr.setImageResource(image);
         tvnama.setText(name);
         tvharga.setText(String.format("Rp. %s", NumberFormat.getNumberInstance(Locale.US).format(harga)));
+        tvketisi.setText(name + " merupakan model kit yang didesain fun dan playful. Terbuat dari material plastik serta cocok untuk usia 14 tahun keata. Diproduksi secara rapi dan mendetail, sehingga ideal dijadikan sebagai koleksi model kit Anda di rumah.");
     }
 }

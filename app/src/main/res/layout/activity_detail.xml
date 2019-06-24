@@ -32,6 +32,22 @@
             android:layout_marginTop="24dp"
             android:text="harga"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/tvket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvharga"
+            android:layout_marginTop="24dp"
+            android:text="Deskripsi :"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/tvketisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvket"
+            android:paddingStart="10dp"
+            android:text="Hobby Boss 85519 Heavy Equipment Semi-Trailer M911 C-HET W-M747 Model Kit [1:35] merupakan model kit yang didesain fun dan playful. Terbuat dari material plastik serta cocok untuk usia 14 tahun keata. Diproduksi secara rapi dan mendetail, sehingga ideal dijadikan sebagai koleksi model kit Anda di rumah."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
     </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>
