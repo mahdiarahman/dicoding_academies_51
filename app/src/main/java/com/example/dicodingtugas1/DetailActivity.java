@@ -18,7 +18,7 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
-
+//tes
         Intent i=getIntent();
         final String name=i.getExtras().getString("nama");
         final int harga=i.getExtras().getInt("harga");
